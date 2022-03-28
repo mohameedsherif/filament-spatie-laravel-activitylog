@@ -56,13 +56,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AlexJustesen\\FilamentSpatieLaravelActivitylog\\FilamentSpatieLaravelActivitylogServiceProvider"
+                "Mohameedsherif\\FilamentSpatieLaravelActivitylog\\FilamentSpatieLaravelActivitylogServiceProvider"
             ],
             "aliases": {
-                "FilamentSpatieLaravelActivitylog": "AlexJustesen\\FilamentSpatieLaravelActivitylog\\Facades\\FilamentSpatieLaravelActivitylog"
+                "FilamentSpatieLaravelActivitylog": "Mohameedsherif\\FilamentSpatieLaravelActivitylog\\Facades\\FilamentSpatieLaravelActivitylog"
             }
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
